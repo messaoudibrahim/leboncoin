@@ -20,7 +20,7 @@ RUN pecl install apcu && docker-php-ext-enable apcu
 
 COPY ./ /var/www
 
-WORKDIR /var/www/
+WORKDIR /var/www/leboncoin_api
 
 
 
